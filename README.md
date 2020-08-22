@@ -12,7 +12,9 @@ Wallpaper: [Night Moon](https://www.reddit.com/r/wallpapers/comments/f1my14/nigh
 
 Zsh with [OhMyZsh](https://github.com/ohmyzsh/ohmyzsh)
 
-Theme: [Powerlevel10k](https://github.com/romkatv/powerlevel10k) 
+Theme: [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
+
+Font: [Meslo Nerd Font](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k) 
 
 #### Stuff
 
