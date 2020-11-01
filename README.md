@@ -19,5 +19,5 @@ Font: [Meslo Nerd Font](https://github.com/romkatv/powerlevel10k#meslo-nerd-font
 #### Stuff
 
 Filemanager: [Ranger](https://github.com/ranger/ranger), colorscheme copied from: [MiracolousMoon](https://github.com/MiraculousMoon/bspwm-dotfiles/tree/master/nord/ranger)
-
+ - [Ranger Devicons](https://github.com/alexanderjeurissen/ranger_devicons)
 
