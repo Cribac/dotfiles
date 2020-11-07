@@ -427,9 +427,7 @@ background_opacity: 0.9
 #   - (Linux/BSD) user login shell
 #   - (Windows) powershell
 shell:
-  program: /bin/zsh
-  args:
-    - --login
+  program: /usr/bin/tmux
 
 # Startup directory
 #
