@@ -1,0 +1,9 @@
+#!bin/sh
+
+# Thanks to @rwxrob | https://github.com/rwxrob
+branch="$(git branch --show-current)"
+if [ "${branch}" = "master" -o "${branch}" = "main" ]; then
+  echo "NO, no, please GOD NOOOOO! You are on ${branch}!"
+  exit 1
+fi
+
