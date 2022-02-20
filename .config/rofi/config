@@ -1,8 +1,0 @@
-
-rofi.drun-display-format:	{name}
-rofi.font:	MesloLGS NF Medium 16
-rofi.icon-theme:	Zafiro-icons
-rofi.modi:	window,drun,run
-rofi.show-icons:	true
-rofi.theme:	/home/christian/.config/rofi/rofi.rasi
-rofi.window-format:	\ {n} {t}
