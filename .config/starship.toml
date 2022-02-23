@@ -3,7 +3,6 @@ add_newline = false
 
 # Define appearance of the "❯" symbol in the prompt.
 [character] 
-symbol = "[❯](bold #B48EAD)" 
 success_symbol = "[❯](bold #A3BE8C)"
 error_symbol = "[✗](bold #bf616a)"
 
