@@ -1,10 +1,18 @@
-# Inserts a blank line between shell prompts
-add_newline = true
+# Inserts no blank line between shell prompts.
+add_newline = false
 
-# Replace the "❯" symbol in the prompt with "➜"
-[character] # The name of the module we are configuring is "character"
-success_symbol = "[❯](bold #B48EAD)" # The "success_symbol" segment is being set to "➜" with the color "bold green"
+# Define appearance of the "❯" symbol in the prompt.
+[character] 
+symbol = "[❯](bold #B48EAD)" 
+success_symbol = "[❯](bold #A3BE8C)"
+error_symbol = "[✗](bold #bf616a)"
 
-# Disable the package module, hiding it from the prompt completely
+[directory]
+truncation_length = 4
+truncation_symbol = "…/"
+style = "bold #88c0d0"
+home_symbol = "[]"
+
+# Disable the package module, hiding it from the prompt completely.
 [package]
 disabled = true
