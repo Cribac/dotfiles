@@ -173,6 +173,9 @@ bindsym $mod+Return exec alacritty
 # start ranger
 bindsym $mod+r exec alacritty -e ranger
 
+# start rofi window switch
+bindsym $mod+Shift+w exec rofi -show window
+
 # kill focused window
 bindsym $mod+q kill
 
