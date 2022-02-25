@@ -174,7 +174,8 @@ bindsym $mod+Return exec alacritty
 bindsym $mod+r exec alacritty -e ranger
 
 # start rofi window switch
-bindsym $mod+Shift+w exec rofi -show window
+bindsym $mod+Tab exec rofi -show window \
+		-config ~/.config/rofi/rofiwindowswitcher.rasi
 
 # kill focused window
 bindsym $mod+q kill
@@ -552,8 +553,8 @@ bindsym $mod+d exec rofi -modi drun -show drun \
 
 ## rofi bindings for window menu ($mod+t /F10 optional disabled)
 
-bindsym $mod+t exec rofi -show window \
-		-config ~/.config/rofi/rofidmenu.rasi
+#bindsym $mod+t exec rofi -show window \
+#		-config ~/.config/rofi/rofidmenu.rasi
 
 #bindsym F10 exec rofi -show window \
 #		-config ~/.config/rofi/rofidmenu.rasi
