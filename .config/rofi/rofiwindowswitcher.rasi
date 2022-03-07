@@ -1,7 +1,7 @@
 /*******************************************************
- * ROFI configs i3 Apps menu for EndeavourOS
- * Maintainer: joekamprad <joekamprad@endeavouros.com>
- *******************************************************/
+ * ROFI configs i3 window switcher
+ * Maintainer: Cribac <github.com/cribac>
+*******************************************************/
 configuration {
     font:				"MesloLGS Nerd Font Mono 12";
     show-icons:				true;
