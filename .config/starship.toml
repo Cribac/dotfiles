@@ -1,6 +1,7 @@
 # Inserts no blank line between shell prompts.
 add_newline = false
 
+
 # Define appearance of the "❯" symbol in the prompt.
 [character] 
 success_symbol = "[❯](bold #A3BE8C)"
@@ -15,3 +16,71 @@ home_symbol = "[]"
 # Disable the package module, hiding it from the prompt completely.
 [package]
 disabled = true
+
+[aws]
+format = '\[[$symbol($profile)(\($region\))(\[$duration\])]($style)\]'
+
+[cmake]
+format = '\[[$symbol($version)]($style)\]'
+
+[cmd_duration]
+format = '\[[⏱ $duration]($style)\]'
+
+[docker_context]
+format = '\[[$symbol$context]($style)\]'
+
+[gcloud]
+format = '\[[$symbol$account(@$domain)(\($region\))]($style)\]'
+
+[git_branch]
+format = '\[[$symbol$branch]($style)\]'
+
+[git_status]
+format = '([\[$all_status$ahead_behind\]]($style))'
+
+[golang]
+format = '\[[$symbol($version)]($style)\]'
+
+[java]
+format = '\[[$symbol($version)]($style)\]'
+
+[kotlin]
+format = '\[[$symbol($version)]($style)\]'
+
+[kubernetes]
+format = '\[[$symbol$context( \($namespace\))]($style)\]'
+
+[lua]
+format = '\[[$symbol($version)]($style)\]'
+
+[memory_usage]
+format = '\[$symbol[$ram( | $swap)]($style)\]'
+
+[nix_shell]
+format = '\[[$symbol$state( \($name\))]($style)\]'
+
+[nodejs]
+format = '\[[$symbol($version)]($style)\]'
+
+[python]
+format = '\[[${symbol}${pyenv_prefix}(${version})(\($virtualenv\))]($style)\]'
+
+[ruby]
+symbol = ' '
+format = '\[[$symbol($version)]($style)\]'
+
+[rust]
+format = '\[[$symbol($version)]($style)\]'
+
+[sudo]
+format = '\[[as $symbol]\]'
+
+[swift]
+format = '\[[$symbol($version)]($style)\]'
+
+[time]
+format = '\[[$time]($style)\]'
+
+[username]
+format = '\[[$user]($style)\]'
+
