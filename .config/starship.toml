@@ -63,6 +63,7 @@ format = '\[[$symbol$state( \($name\))]($style)\]'
 format = '\[[$symbol($version)]($style)\]'
 
 [python]
+symbol = ' '
 format = '\[[${symbol}${pyenv_prefix}(${version})(\($virtualenv\))]($style)\]'
 
 [ruby]
