@@ -171,10 +171,10 @@ bindcode $mod+Shift+90 	 move container to workspace  $ws10
 ######################################
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec kitty
 
 # start ranger
-bindsym $mod+r exec alacritty -e ranger
+bindsym $mod+r exec kitty -e ranger
 
 # start rofi window switch
 bindsym $mod+Tab exec rofi -show window \
