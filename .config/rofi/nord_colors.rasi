@@ -26,11 +26,12 @@
 
 
    background-color: @nord0;
+   background-alternate-color: @nord3;
    border-color:     @nord3;
-   text-color:       @nord4;
+   text-color:       @nord6;
    dark-text-color:  @nord3;
-   main-color:       @nord8;
+   main-color:       @nord9;
    highlight:        @nord7;
    urgent-color:     @nord11;
-   selected-color:   @nord14;
+   selected-color:   @nord3;
 }
