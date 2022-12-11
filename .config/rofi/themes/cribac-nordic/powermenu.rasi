@@ -1,7 +1,9 @@
-/*******************************************************
- * ROFI config for i3 powermenu for EndeavourOS
+/*****************************************************************
+ * ROFI config for the cribac-nordic powermenu for EndeavourOS i3 
  * Author: cribac https://github.com/cribac 
- *******************************************************/
+ *****************************************************************/
+@import "~/.config/rofi/themes/cribac-nordic/colors.rasi"
+
 configuration {
   font: "MesloLGS Nerd Font Mono 10";
   show-icons: false;
@@ -9,8 +11,6 @@ configuration {
   disable-history: false;
   sidebar-mode: false;
 }
-
-@import "~/.config/rofi/nord_colors.rasi"
 
 window {
   border: @border-color;
