@@ -7,7 +7,7 @@
 # not connected
 if [ $(bluetoothctl show | grep "Powered: yes" | wc -c) -eq 0 ]
 then
- echo "not connected"
+ echo "off"
 else
  # connected, but no device
  if [ $(echo info | bluetoothctl | grep 'Device' | wc -c) -eq 0 ]
