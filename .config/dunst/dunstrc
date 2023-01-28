@@ -197,7 +197,7 @@
 
     # Paths to default icons.
     #icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
-    icon_path = /usr/share/icons/Zafiro-icons/status/22/:/usr/share/icons/Zafiro-icons/devices/22/:/usr/share/icons/Zafiro-icons/apps/22/:/usr/share/pixmaps/
+    #icon_path = /usr/share/icons/Zafiro-icons/status/22/:/usr/share/icons/Zafiro-icons/devices/22/:/usr/share/icons/Zafiro-icons/apps/22/:/usr/share/pixmaps/
 
     ### History ###
 
@@ -288,7 +288,8 @@
     # using the resolution and physical size. This might be useful in setups
     # where there are multiple screens with very different dpi values.
     per_monitor_dpi = false
-
+    icon_theme = "candy-icons,Zafiro-icons,Qogir,Adwaita"
+    enable_recursive_icon_lookup = true
 
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
