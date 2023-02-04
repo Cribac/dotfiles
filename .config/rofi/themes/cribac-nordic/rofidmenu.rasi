@@ -1,0 +1,161 @@
+/*****************************************************************
+ * ROFI config for the cribac-nordic rofidmenu for EndeavourOS i3 
+ * Author: cribac https://github.com/cribac 
+ *****************************************************************/
+configuration {
+  font: "MesloLGS Nerd Font Mono 12";
+  show-icons: true;
+  icon-theme:	"candy-icons";
+  display-drun: "Apps";
+  drun-display-format: "{name}";
+  scroll-method: 0;
+  disable-history: false;
+  sidebar-mode: false;
+}
+
+@import "~/.config/rofi/themes/cribac-nordic/colors.rasi"
+
+window {
+  background-color: @background-color;
+  border: 0;
+  padding: 30;
+}
+
+listview {
+  lines: 10;
+  columns: 3;
+}
+
+mainbox {
+  border:  0;
+  padding: 0;
+}
+
+message {
+  border: 2px 0px 0px ;
+  border-color: @separatorcolor;
+  padding: 1px ;
+}
+
+textbox {
+  text-color: @text-color;
+}
+
+listview {
+  fixed-height: 0;
+  border: 8px 0px 0px ;
+  border-color: @separatorcolor;
+  spacing: 8px ;
+  scrollbar: false;
+  padding: 2px 0px 0px ;
+}
+
+element {
+  border:  0;
+  padding: 1px ;
+}
+
+element-text {
+  background-color: inherit;
+  text-color: inherit;
+}
+
+element.normal.normal {
+  background-color: @background-color;
+  text-color: @text-color;
+}
+
+element.normal.urgent {
+  background-color: @background-color;
+  text-color: @urgent-color;
+}
+
+element.normal.active {
+  background-color: @background-color;
+  text-color: @main-color;
+}
+
+element.selected.normal {
+  background-color: @main-color;
+  text-color: @dark-text-color;
+}
+
+element.selected.urgent {
+  background-color: @background-color;
+  text-color: @text-color;
+}
+
+element.selected.active {
+  background-color: @background-color;
+  text-color: @text-color;
+}
+
+element.alternate.normal {
+  background-color: @background-color;
+  text-color: @text-color;
+}
+
+element.alternate.urgent {
+  background-color: @background-color;
+  text-color: @text-color;
+}
+
+element.alternate.active {
+  background-color: @background-color;
+  text-color: @text-color;
+}
+
+scrollbar {
+  width: 4px ;
+  border: 0;
+  handle-color: @text-color;
+  handle-width: 8px ;
+  padding: 0;
+}
+
+mode-switcher {
+  border: 2px 0px 0px ;
+  border-color: @separatorcolor;
+}
+
+button {
+  spacing: 0;
+  text-color: @text-color;
+}
+
+button.selected {
+  background-color: @background-color;
+  text-color: @highlight;
+}
+
+inputbar {
+  spacing: 0;
+  text-color: @text-color;
+  padding: 1px ;
+}
+
+case-indicator {
+  spacing: 0;
+  text-color: @text-color;
+}
+
+entry {
+  spacing: 0;
+  text-color: @text-color;
+}
+
+prompt {
+  spacing: 0;
+  text-color: @text-color;
+}
+
+inputbar {
+  children: [ prompt,textbox-prompt-colon,entry,case-indicator ];
+}
+
+textbox-prompt-colon {
+  expand: false;
+  str: ":";
+  margin: 0px 0.3em 0em 0em ;
+  text-color: @text-color;
+}

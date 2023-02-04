@@ -37,4 +37,5 @@
    highlight:        @nord7;
    urgent-color:     @nord11;
    selected-color:   @nord3;
+   separatorcolor:   @nord1;
 }
