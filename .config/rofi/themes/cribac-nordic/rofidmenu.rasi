@@ -33,7 +33,7 @@ mainbox {
 
 message {
   border: 2px 0px 0px ;
-  border-color: @separatorcolor;
+  border-color: @background-alternate-color;
   padding: 1px ;
 }
 
@@ -44,7 +44,7 @@ textbox {
 listview {
   fixed-height: 0;
   border: 8px 0px 0px ;
-  border-color: @separatorcolor;
+  border-color: @background-alternate-color;
   spacing: 8px ;
   scrollbar: false;
   padding: 2px 0px 0px ;
@@ -52,7 +52,7 @@ listview {
 
 element {
   border:  0;
-  padding: 1px ;
+  padding: 10px ;
 }
 
 element-text {
@@ -77,7 +77,7 @@ element.normal.active {
 
 element.selected.normal {
   background-color: @main-color;
-  text-color: @dark-text-color;
+  text-color: @text-color;
 }
 
 element.selected.urgent {
@@ -115,7 +115,7 @@ scrollbar {
 
 mode-switcher {
   border: 2px 0px 0px ;
-  border-color: @separatorcolor;
+  border-color: @background-alternate-color;
 }
 
 button {
