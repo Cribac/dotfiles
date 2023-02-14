@@ -1,4 +1,4 @@
-### My dotfiles.
+### My personal dotfiles.
 
 #### WIP EndeavourOS I3 setup.
 
