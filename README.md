@@ -8,7 +8,7 @@ This is a probably never ending work in progress for a [EndeavourOS](https://end
 
 
 ![workflow-vscode-neovim-ranger](/screenshots/workflow.png)
-Worflow example witch VSCode Neovim and ranger
+Worflow example with VSCode Neovim and ranger
 
 #####
 Stuff that's needed, config etc... TBD
