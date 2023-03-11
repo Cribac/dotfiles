@@ -178,7 +178,7 @@ bindsym $mod+r exec kitty -e ranger
 
 # start rofi window switch
 bindsym $mod+Tab exec rofi -show window \
-		-config ~/.config/rofi/rofiwindowswitcher.rasi
+		-config ~/.config/rofi/themes/cribac-nordic/rofiwindowswitcher.rasi
 
 # kill focused window
 bindsym $mod+q kill
