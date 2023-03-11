@@ -4,7 +4,7 @@ This is a probably never ending work in progress for a [EndeavourOS](https://end
 
 ##### Screenshots:
 ![Desktop-Polybar-Wallpaper](/screenshots/desktop.png)
-[i3](https://i3wm.org/) desktop with [Night Moon](https://www.reddit.com/r/wallpapers/comments/f1my14/night_moon_made_by_me_3840x2400/) wallpaper by [u/releksi](https://www.reddit.com/user/releksi/) and [Polybar](https://github.com/polybar/polybar)
+[i3](https://i3wm.org/) desktop with [Polybar](https://github.com/polybar/polybar). [Night Moon](https://www.reddit.com/r/wallpapers/comments/f1my14/night_moon_made_by_me_3840x2400/) wallpaper by [u/releksi](https://www.reddit.com/user/releksi/)
 
 
 ![workflow-vscode-neovim-ranger](/screenshots/workflow.png)
