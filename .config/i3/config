@@ -186,6 +186,9 @@ bindsym $mod+q kill
 # exit-menu
 bindsym $mod+Shift+e exec ~/.config/i3/scripts/cribac-nordic/powermenu
 
+# start UpdateInTerminal utility
+bindsym $mod+u exec UpdateInTerminal --nt
+
 # Lock the system
 # lock with a picture:
 bindsym $mod+l exec ~/.config/i3/scripts/cribac-nordic/lock-screen
