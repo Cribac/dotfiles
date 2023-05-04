@@ -11,7 +11,7 @@ error_symbol = "[✗](bold #bf616a)"
 truncation_length = 4
 truncation_symbol = "…/"
 style = "bold #88c0d0"
-home_symbol = "[]"
+home_symbol = "[󰋞]"
 
 # Disable the package module, hiding it from the prompt completely.
 [package]
