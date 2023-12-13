@@ -4,13 +4,13 @@ add_newline = false
 
 # Define appearance of the "❯" symbol in the prompt.
 [character] 
-success_symbol = "[❯](bold #A3BE8C)"
-error_symbol = "[✗](bold #bf616a)"
+success_symbol = "[❯](bold #a6d189)"
+error_symbol = "[✗](bold #e78284)"
 
 [directory]
 truncation_length = 4
 truncation_symbol = "…/"
-style = "bold #88c0d0"
+style = "bold #8caaee"
 home_symbol = "[󰋞]"
 
 # Disable the package module, hiding it from the prompt completely.
@@ -34,9 +34,11 @@ format = '\[[$symbol$account(@$domain)(\($region\))]($style)\]'
 
 [git_branch]
 format = '\[[$symbol$branch]($style)\]'
+style = '#eebebe'
 
 [git_status]
 format = '([\[$all_status$ahead_behind\]]($style))'
+style = '#eebebe'
 
 [golang]
 format = '\[[$symbol($version)]($style)\]'
@@ -61,6 +63,7 @@ format = '\[[$symbol$state( \($name\))]($style)\]'
 
 [nodejs]
 format = '\[[$symbol($version)]($style)\]'
+style = '#81c8be'
 
 [python]
 symbol = ' '
