@@ -1,6 +1,6 @@
 ### My dotfiles.
 
-This is a probably never ending work in progress for a [EndeavourOS](https://endeavouros.com/) setup.
+This is a never ending work in progress for my personal [EndeavourOS](https://endeavouros.com/) setup.
 
 ##### Screenshots:
 ![Desktop-Polybar-Wallpaper](/screenshots/desktop.jpg)
