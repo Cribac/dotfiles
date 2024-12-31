@@ -1,0 +1,5 @@
+font-family = "MesloLGS Nerd Font"
+theme = catppuccin-mocha
+cursor-style = bar
+mouse-hide-while-typing = true
+background-opacity = 0.9
