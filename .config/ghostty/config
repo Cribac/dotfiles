@@ -3,3 +3,4 @@ theme = catppuccin-mocha
 cursor-style = bar
 mouse-hide-while-typing = true
 background-opacity = 0.9
+gtk-adwaita = false
